@@ -26,3 +26,5 @@ hs_err_pid*
 # IntelliJ project files
 .idea
 *.iml
+*/.DS_Store
+.DS_Store
