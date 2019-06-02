@@ -23,7 +23,7 @@ public class LazySimpleSingleton {
         }
         return lazySimpleSingleton;
     }
-
+    //第二种
     public static LazySimpleSingleton getInstanceSycn() {
         if (lazySimpleSingleton == null) {
             // 互斥锁 锁级别为类锁，多线程只能串行访问该资源

@@ -45,4 +45,6 @@ public class EnumSingletonTest {
             e.printStackTrace();
         }
     }
+
+
 }

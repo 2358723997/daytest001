@@ -37,7 +37,7 @@ class InnerExectorThread implements Runnable {
 class ReflectLazyInnerClassSingletonTest{
 
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        ////通过反射拿到私有的构造方法
+        ////通过反射获取私有的构造方法
         Constructor<LazyInnerClassSingleton> constructor = LazyInnerClassSingleton.class.getDeclaredConstructor();
         // 强制访问
         constructor.setAccessible(true);

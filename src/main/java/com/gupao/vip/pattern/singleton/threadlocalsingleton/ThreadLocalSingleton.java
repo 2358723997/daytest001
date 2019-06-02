@@ -10,7 +10,7 @@ public class ThreadLocalSingleton {
 
     private ThreadLocalSingleton() {}
 
-    // TODO: 2019-05-26 此处可与懒汉内部类式单例进行比较 
+    // TODO: 2019-05-26 此处可与懒汉内部类式单例进行比较
     private static final ThreadLocal<ThreadLocalSingleton> threadLocalInstance = new ThreadLocal<ThreadLocalSingleton>(){
         @Override
         protected ThreadLocalSingleton initialValue() {
