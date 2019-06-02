@@ -3,7 +3,7 @@ package com.gupao.vip.pattern.singleton.threadlocalsingleton;
 import com.gupao.vip.pattern.singleton.LazySimpleSingleton;
 
 /**
- * ThreadLocalSingleton类
+ * ThreadLocalSingletonTest类
  * ThreadLocal 不能保证其创建的对象是全局唯一，但是能保证在单个线程中是唯一的
  * @author wangjixue
  * @date 2019-05-26 00:52
@@ -31,4 +31,5 @@ class  ThreadLocalExectorThread implements Runnable{
         ThreadLocalSingleton lazy = ThreadLocalSingleton.getInstance();
         System.err.println(Thread.currentThread().getName()+"---"+lazy);
     }
-}
+
+    }
