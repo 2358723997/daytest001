@@ -42,5 +42,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.39</version>
         </dependency>
+        <!--proxy_动态代理_cglib-->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>2.2</version>
+        </dependency>
     </dependencies>
 </project>
